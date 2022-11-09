@@ -35,5 +35,12 @@ project(':provider').projectDir = file("$root${File.separator}provider")
 include ':server-shared'
 project(':server-shared').projectDir = file("$root${File.separator}server-shared")
 
+include ':demo-hidden-api-stub'
+project(':demo-hidden-api-stub').projectDir = file("$root${File.separator}demo-hidden-api-stub")
+
+include ':demo'
+project(':demo').projectDir = file("$root${File.separator}demo")
+
+
 //include ':hidden-api-stub'
 //project(':hidden-api-stub').projectDir = file("$root${File.separator}hidden-api-stub")
